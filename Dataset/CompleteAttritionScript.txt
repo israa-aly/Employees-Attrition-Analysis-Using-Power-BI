@@ -1,0 +1,11 @@
+2 options to create date dim:
+1) dax
+2) power query
+#measure: calculation that isn't based on a specefic table
+# isn't on a row level,it has aggregations
+# Dax Calculations is on top of power query: calculated columns and measures in dax aren't exist in power query
+#we should put the measures at one table 
+# sumx: it takes 2 parameters : (table, calculation)
+it iterate over every row in the table and calculate 
+the calculation fot it then do sum of the calculations of all rows
+= sum(calculated col)
